@@ -1,0 +1,98 @@
+.orange-gradient-text {
+    background: linear-gradient(to right, #F47E20, #FFB973, #F47E20);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: shine 3s linear infinite;
+}
+@keyframes shine {
+    to { background-position: 200% center; }
+}
+.whatsapp-pulse {
+    animation: pulse-green 2s infinite;
+}
+@keyframes pulse-green {
+    0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+    70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+/* Legal pages readability (privacy.html / terms.html) */
+.legal-content {
+    color: #d4d4d8;
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+@media (min-width: 640px) {
+    .legal-content {
+        font-size: 1rem;
+    }
+}
+.legal-content p {
+    color: #d4d4d8;
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+}
+.legal-content p:last-child {
+    margin-bottom: 0;
+}
+.legal-content h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: 4px solid #F47E20;
+    scroll-margin-top: 7rem;
+}
+@media (min-width: 640px) {
+    .legal-content h2 {
+        font-size: 1.75rem;
+    }
+}
+.legal-content h3 {
+    color: #F47E20;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    scroll-margin-top: 7rem;
+}
+.legal-content ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: grid;
+    gap: 0.6rem;
+    color: #d4d4d8;
+}
+.legal-content li::marker {
+    color: #F47E20;
+}
+.legal-content strong {
+    color: #fff;
+}
+.legal-content a {
+    color: #F47E20;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.legal-content a:hover {
+    color: #FFB973;
+}
+.legal-content section {
+    scroll-margin-top: 7rem;
+}
+/* Custom scrollbar for interactive components */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #121212;
+}
+::-webkit-scrollbar-thumb {
+    background: #F47E20;
+    border-radius: 4px;
+}
