@@ -1,0 +1,7 @@
+# robots.txt - Barbearia Seu Xico
+# https://mrskillfull.github.io/seu-xico-servicos/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://mrskillfull.github.io/seu-xico-servicos/sitemap.xml

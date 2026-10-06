@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia Seu Xico | Agendamento & Clube de Assinatura</title>
-    <link rel="shortcut icon" href="./images/seu-xico-brand-logo.png" type="image/png">
+    <link rel="shortcut icon" href="./seu-xico-brand-logo.ico" type="image/x-icon">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Barbearia em Cachoeiras de Macacu - RJ. Agende corte e barba com hora marcada ou assine o Clube Seu Xico e fique na régua o mês inteiro.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Barbearia Seu Xico">
+    <link rel="canonical" href="https://mrskillfull.github.io/seu-xico-servicos/">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Barbearia Seu Xico">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://mrskillfull.github.io/seu-xico-servicos/">
+    <meta property="og:title" content="Barbearia Seu Xico | Agendamento & Clube de Assinatura">
+    <meta property="og:description" content="Barbearia em Cachoeiras de Macacu - RJ. Agende corte e barba com hora marcada ou assine o Clube Seu Xico e fique na régua o mês inteiro.">
+    <meta property="og:image" content="https://mrskillfull.github.io/seu-xico-servicos/images/seu-xico-brand-logo.png">
+    <meta property="og:image:alt" content="Logo da Barbearia Seu Xico">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Barbearia Seu Xico | Agendamento & Clube de Assinatura">
+    <meta name="twitter:description" content="Barbearia em Cachoeiras de Macacu - RJ. Agende corte e barba com hora marcada ou assine o Clube Seu Xico e fique na régua o mês inteiro.">
+    <meta name="twitter:image" content="https://mrskillfull.github.io/seu-xico-servicos/images/seu-xico-brand-logo.png">
     
     <!-- CSS -->
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Agende seu horário ou assine o Clube Seu Xico para ter cabelo e barba na régua o mês inteiro. Atendimento exclusivo em um ambiente diferenciado.">
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome Icons -->
@@ -19,8 +40,85 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
      <link rel="stylesheet" href="./css/style.css">
-    
-    
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BeautySalon",
+                "@id": "https://mrskillfull.github.io/seu-xico-servicos/#salon",
+                "name": "Barbearia Seu Xico",
+                "description": "Barbearia em Cachoeiras de Macacu - RJ. Corte, barba e cuidados masculinos com agendamento e Clube de Assinatura.",
+                "url": "https://mrskillfull.github.io/seu-xico-servicos/",
+                "image": "https://mrskillfull.github.io/seu-xico-servicos/images/seu-xico-brand-logo.png",
+                "telephone": "+5521972832618",
+                "priceRange": "$$",
+                "currenciesAccepted": "BRL",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "R. Padre Antônio da Costa Carvalho 267, Parque Ribeira",
+                    "addressLocality": "Cachoeiras de Macacu",
+                    "addressRegion": "RJ",
+                    "postalCode": "28695-000",
+                    "addressCountry": "BR"
+                },
+                "openingHoursSpecification": [
+                    {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                        "opens": "09:00",
+                        "closes": "20:00"
+                    }
+                ],
+                "sameAs": [
+                    "https://maps.app.goo.gl/dRzPHHtSVJzC1fCcA"
+                ],
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Serviços Avulsos",
+                    "itemListElement": [
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "40.00", "itemOffered": { "@type": "Service", "name": "Corte" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "35.00", "itemOffered": { "@type": "Service", "name": "Barba" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "15.00", "itemOffered": { "@type": "Service", "name": "Sobrancelha" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "20.00", "itemOffered": { "@type": "Service", "name": "Pé do Cabelo" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "35.00", "itemOffered": { "@type": "Service", "name": "Corte Kids" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "150.00", "itemOffered": { "@type": "Service", "name": "Limpeza de Pele" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "55.00", "itemOffered": { "@type": "Service", "name": "Relaxamento" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "155.00", "itemOffered": { "@type": "Service", "name": "Selagem" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "45.00", "itemOffered": { "@type": "Service", "name": "Hidratação" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "20.00", "itemOffered": { "@type": "Service", "name": "Lavagem de Cabelo" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "35.00", "itemOffered": { "@type": "Service", "name": "Pigmentação" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "205.00", "itemOffered": { "@type": "Service", "name": "Platinado" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "175.00", "itemOffered": { "@type": "Service", "name": "Reflexo / Luzes" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "25.00", "itemOffered": { "@type": "Service", "name": "Linha / Desenho" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "70.00", "itemOffered": { "@type": "Service", "name": "Combo 1 - Cabelo + Barba" } },
+                        { "@type": "Offer", "priceCurrency": "BRL", "price": "85.00", "itemOffered": { "@type": "Service", "name": "Combo 2 - Cabelo + Barba + Pigmentação" } }
+                    ]
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://mrskillfull.github.io/seu-xico-servicos/#website",
+                "url": "https://mrskillfull.github.io/seu-xico-servicos/",
+                "name": "Barbearia Seu Xico",
+                "inLanguage": "pt-BR",
+                "publisher": { "@id": "https://mrskillfull.github.io/seu-xico-servicos/#salon" }
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://mrskillfull.github.io/seu-xico-servicos/#webpage",
+                "url": "https://mrskillfull.github.io/seu-xico-servicos/",
+                "name": "Barbearia Seu Xico | Agendamento & Clube de Assinatura",
+                "inLanguage": "pt-BR",
+                "isPartOf": { "@id": "https://mrskillfull.github.io/seu-xico-servicos/#website" },
+                "about": { "@id": "https://mrskillfull.github.io/seu-xico-servicos/#salon" }
+            }
+        ]
+    }
+    </script>
+
 </head>
 <body class="bg-brand-dark text-white font-sans antialiased selection:bg-brand-orange selection:text-black">
 
