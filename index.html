@@ -67,9 +67,21 @@
                 "openingHoursSpecification": [
                     {
                         "@type": "OpeningHoursSpecification",
-                        "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                        "dayOfWeek": "Sunday",
+                        "opens": "08:00",
+                        "closes": "14:00"
+                    },
+                    {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Monday",
                         "opens": "09:00",
-                        "closes": "20:00"
+                        "closes": "17:00"
+                    },
+                    {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                        "opens": "08:00",
+                        "closes": "21:00"
                     }
                 ],
                 "sameAs": [
@@ -740,8 +752,9 @@
                             </div>
                             <div>
                                 <h4 class="font-bold text-white text-sm">Horário de Funcionamento</h4>
-                                <p class="text-gray-400 text-xs mt-0.5">Terça a Sábado: 09:00h às 20:00h</p>
-                                <p class="text-gray-500 text-[11px]">Domingos e Segundas: Fechado</p>
+                                <p class="text-gray-400 text-xs mt-0.5">Domingo: 8h às 14h</p>
+                                <p class="text-gray-400 text-xs mt-0.5">Segunda: 9h às 17h</p>
+                                <p class="text-gray-400 text-xs mt-0.5">Terça a sábado: 8h às 21h</p>
                             </div>
                         </div>
                     </div>
