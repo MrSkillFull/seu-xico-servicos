@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" fill="none">
+  <!-- Decorative street map; not a geographic representation. -->
+  <rect width="960" height="560" fill="#141719"/>
+  <g fill="#202527" stroke="#2a3032" stroke-width="2">
+    <path d="M-20 35 176-10 215 115 12 165Z"/>
+    <path d="m247-10 193 0-35 129-145-3Z"/>
+    <path d="m491-10 189 0 40 124-263 10Z"/>
+    <path d="m733-10 247 0v147l-207-7Z"/>
+    <path d="m-20 218 229-54 34 128L-20 365Z"/>
+    <path d="m275 163 119 4-31 129-77-1Z"/>
+    <path d="m449 175 284-4 30 126-348 1Z"/>
+    <path d="m788 179 192 12v108l-162-1Z"/>
+    <path d="m-20 415 276-74 30 128-306 99Z"/>
+    <path d="m329 348 279-2-24 117-218 71Z"/>
+    <path d="m661 347 120 0 54 213H615Z"/>
+    <path d="m833 348 147 0v212h-91Z"/>
+  </g>
+  <path d="M-30 195 244 137l182 13 336-4 228 24M-25 391l303-70 712 2M221-20l79 342 56 258M474-20 388 320M745-20l151 600M630 322l-52 258" stroke="#363b3d" stroke-width="16"/>
+  <path d="M-25 391l303-70 712 2" stroke="#51504a" stroke-width="2" stroke-dasharray="10 14"/>
+  <path d="m72 532 228-74-22-137 420 2 65 0-39-169 122 6" stroke="#f59e0b" stroke-opacity=".12" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m72 532 228-74-22-137 420 2 65 0-39-169 122 6" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 11"/>
+  <circle cx="72" cy="532" r="9" fill="#f59e0b" stroke="#141719" stroke-width="4"/>
+  <circle cx="846" cy="160" r="34" fill="#f59e0b" fill-opacity=".12"/>
+  <path d="M846 114a25 25 0 0 0-25 25c0 19 25 43 25 43s25-24 25-43a25 25 0 0 0-25-25Z" fill="#f59e0b"/>
+  <circle cx="846" cy="139" r="9" fill="#141719"/>
+</svg>

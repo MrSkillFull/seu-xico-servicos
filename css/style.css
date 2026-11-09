@@ -96,3 +96,138 @@
     background: #F47E20;
     border-radius: 4px;
 }
+/* Area Kids: playful details scoped to this section. */
+#area-kids {
+    scroll-margin-top: 6rem;
+}
+#area-kids .kids-panel {
+    position: relative;
+    isolation: isolate;
+    border: 1px solid rgba(244, 126, 32, 0.45);
+    background:
+        radial-gradient(circle at 8% 8%, rgba(244, 126, 32, 0.18), transparent 36%),
+        radial-gradient(circle at 95% 95%, rgba(104, 211, 197, 0.09), transparent 32%),
+        #121212;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+#area-kids .kids-panel::before {
+    content: '';
+    position: absolute;
+    inset: 0 1.5rem auto;
+    height: 5px;
+    border-radius: 0 0 8px 8px;
+    background: linear-gradient(90deg, #F47E20 0% 55%, #FFD879 55% 70%, #68D3C5 70% 85%, #C4AEF4 85%);
+    pointer-events: none;
+}
+#area-kids .kids-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+#area-kids .kids-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.6rem 1rem;
+    border: 1px solid rgba(244, 126, 32, 0.55);
+    border-radius: 999px 999px 999px 8px;
+    background: #F47E20;
+    color: #000;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 0 rgba(244, 126, 32, 0.15);
+}
+#area-kids #kids-title {
+    line-height: 1.15;
+    overflow-wrap: break-word;
+}
+#area-kids .kids-booking {
+    position: relative;
+    min-width: 0;
+    border: 1px solid rgba(244, 126, 32, 0.4);
+    border-radius: 2rem 2rem 2rem 0.75rem;
+    background: linear-gradient(155deg, #232019, #080808 65%);
+    box-shadow: 0 8px 0 rgba(244, 126, 32, 0.12), 0 18px 32px rgba(0, 0, 0, 0.25);
+}
+#area-kids .kids-play {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13rem;
+    max-width: 100%;
+    height: 9rem;
+    margin: 0 auto;
+    background:
+        radial-gradient(circle at 14% 34%, #68D3C5 0 4px, transparent 5px),
+        radial-gradient(circle at 83% 79%, #FFD879 0 5px, transparent 6px),
+        radial-gradient(circle at 39% 92%, #C4AEF4 0 3px, transparent 4px),
+        radial-gradient(circle at 64% 8%, #F47E20 0 3px, transparent 4px);
+}
+#area-kids .kids-play::before {
+    content: '';
+    position: absolute;
+    width: 8rem;
+    height: 7rem;
+    border: 1px dashed rgba(255, 216, 121, 0.45);
+    border-radius: 50%;
+    transform: rotate(-25deg);
+    pointer-events: none;
+}
+#area-kids .kids-smile {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 6rem;
+    border: 3px solid #FFB973;
+    border-radius: 42% 58% 55% 45%;
+    background: #F47E20;
+    color: #000;
+    font-size: 3.5rem;
+    box-shadow: 5px 6px 0 rgba(244, 126, 32, 0.2);
+    transform: rotate(-10deg);
+}
+#area-kids .kids-spark {
+    position: absolute;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    color: #121212;
+    font-size: 1.2rem;
+}
+#area-kids .kids-spark-one {
+    top: 0.5rem;
+    right: 0.5rem;
+    background: #FFD879;
+    transform: rotate(15deg);
+}
+#area-kids .kids-spark-two {
+    bottom: 0.5rem;
+    left: 0.5rem;
+    background: #68D3C5;
+    transform: rotate(-15deg);
+}
+#area-kids .kids-cta {
+    min-height: 3.5rem;
+    border: 1px solid #FFB973;
+    box-shadow: 0 4px 0 #883d09;
+}
+#area-kids .kids-cta:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: 5px;
+}
+@media (min-width: 768px) {
+    #area-kids .kids-layout {
+        grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+        gap: 2.5rem;
+    }
+}

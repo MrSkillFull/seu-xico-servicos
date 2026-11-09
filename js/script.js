@@ -91,8 +91,8 @@ function updateWhatsAppPreview() {
         }
     }
 
-    // Usando Emojis diretos ao invés de unicode escapado para compatibilidade nativa em links
-    const messageText = `Olá! Gostaria de agendar um horário na *Barbearia Seu Xico*.\n\n👤 *Nome:* ${name}\n💈 *Serviço:* ${service}\n📅 *Data:* ${formattedDate}\n⏰ *Horário:* ${time}\n\nAguardo confirmação!`;
+    // Plain-text labels avoid emoji corruption when opening WhatsApp.
+    const messageText = `Olá! Gostaria de agendar um horário na *Barbearia Seu Xico*.\n\n*Nome:* ${name}\n*Serviço:* ${service}\n*Data:* ${formattedDate}\n*Horário:* ${time}\n\nAguardo confirmação!`;
 
     // Display preview text
     document.getElementById('messagePreview').innerText = messageText;
@@ -117,3 +117,9 @@ document.getElementById('bookingTime').addEventListener('change', updateWhatsApp
 window.onload = function() {
     updateWhatsAppPreview();
 };
+// Select the kids service and refresh the existing WhatsApp booking preview.
+document.getElementById('bookKidsBtn').addEventListener('click', function() {
+    const serviceSelect = document.getElementById('serviceSelect');
+    serviceSelect.value = 'Corte Kids (R$ 45,00)';
+    serviceSelect.dispatchEvent(new Event('change'));
+});
